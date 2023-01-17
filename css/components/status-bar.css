@@ -4,7 +4,7 @@
   top: 0;
   display: flex;
   justify-content: center;
-  padding: 5px 5px;
+  padding: 5px 1px;
 }
 .status-bar__column:first-child span {
   margin-right: 2px;

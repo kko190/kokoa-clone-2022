@@ -17,10 +17,15 @@
 body {
   color: #2f363e;
   font-family: Arial, Helvetica, sans-serif;
-  height: 100vh;
+  height: 150vh;
 }
 
-.main-screen {
+.friends-page {
   margin-bottom: 10px;
   padding: 0px var(--horizontal-space);
+}
+
+.wallet-screen__text,
+.wallet-screen__id {
+  font-weight: 600;
 }
