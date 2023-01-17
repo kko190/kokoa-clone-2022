@@ -2,6 +2,15 @@
   justify-content: space-between;
   margin: 22px 0px;
 }
+.user-component__friend-screen {
+  margin: 15px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.user-component__column {
+  display: flex;
+}
 
 .user-component,
 .user-component__column:first-child {
