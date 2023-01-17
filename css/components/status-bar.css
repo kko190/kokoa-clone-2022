@@ -4,13 +4,14 @@
   top: 0;
   display: flex;
   justify-content: center;
-  padding: 5px 3px;
+  padding: 5px 5px;
 }
 .status-bar__column:first-child span {
   margin-right: 2px;
 }
 .status-bar__column {
   width: 33%;
+  font-size: 13px;
 }
 .status-bar__column:nth-child(2) {
   display: flex;

@@ -20,11 +20,11 @@
 .friends-screen__channel {
   margin-top: 15px;
   border-top: var(--border-att);
-
-  padding-top: 25px;
+  padding-top: 10px;
 }
 .friends-screen__channel-header {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-size: 12px;
   display: flex;
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.6);

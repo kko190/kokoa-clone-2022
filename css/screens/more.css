@@ -1,0 +1,74 @@
+.wallet-screen__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px var(--horizontal-space);
+  background-color: var(--yellow);
+}
+
+.wallet-screen__text,
+.wallet-screen__id {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.wallet-screen__pay,
+.wallet-screen__money {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.wallet-screen__pay-info {
+  display: flex;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.wallet-screen__purchase-info {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.wallet-screen__ad-info {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 15px 10px;
+  width: 100%;
+  margin: -15px 0px;
+  background-color: #f7f2d5;
+}
+.wallet-screen__ad-info span {
+  font-weight: 600;
+}
+
+.wallet-screen__pay-info .divider {
+  width: 1px;
+  height: 13px;
+  margin: 0 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.many-icons {
+  padding: 25px var(--horizontal-space);
+}
+
+.many-icons__first-line {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.many-icons__gift {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 22px;
+  margin-right: 22px;
+  height: 20px;
+}
+.many-icons__gift span {
+  margin-top: 30px;
+
+  position: absolute;
+}
