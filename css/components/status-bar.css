@@ -5,8 +5,8 @@
   display: flex;
   justify-content: center;
   padding: 5px 1px;
-  background-color: white;
 }
+
 .status-bar__column:first-child span {
   margin-right: 2px;
 }

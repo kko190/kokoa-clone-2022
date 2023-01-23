@@ -1,7 +1,6 @@
 .user-component {
   justify-content: space-between;
   margin: 22px 0px;
-  border-bottom: var(--border-att);
 }
 .user-component__friend-screen {
   margin: 15px 0px;
