@@ -44,3 +44,14 @@
 .friend-screen__wise-saying-text span {
   line-height: 22px;
 }
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  height: 110vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
