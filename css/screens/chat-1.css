@@ -1,6 +1,6 @@
 #chat1-screen {
   background-color: #abc1d1;
-  height: 1000vh;
+  height: 500vh;
 }
 #chat1-screen .alt-header,
 #chat1-screen .status-bar {
@@ -14,12 +14,28 @@
   top: 20px;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: none;
+  }
+  1% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+
 .main-chat {
   margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 12px;
+  animation: fadeIn 0.6s linear;
 }
 
 .chat__timestamp {
@@ -99,6 +115,7 @@
   width: 100%;
   border: var(--border-att);
   border-radius: 20px;
+  transition: all 0.5s ease-in-out;
 }
 .reply__column:last-child > i,
 .reply__column:last-child button {
@@ -120,4 +137,21 @@
 .reply__column button:focus,
 .reply__column button:active {
   outline: none;
+}
+
+.reply .reply__column:first-child,
+.reply .fa-smile-wink,
+.reply button {
+  transition: opacity 0.3s;
+}
+
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .fa-smile-wink,
+.reply:focus-within button {
+  opacity: 0;
+}
+
+.reply:focus-within input {
+  width: 93vw;
+  transform: translateX(-5%);
 }
